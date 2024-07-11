@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .text-center {
   text-align: center;
 }
@@ -201,4 +205,93 @@
 .js {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
+}
+
+/* support */
+
+.support {
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.7),
+      rgba(95, 94, 94, 0.438),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/assets/handshake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  padding: 64px;
+  margin-bottom: 79px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container h1,
+.container p {
+  color: white;
+  max-width: 730px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.input input[type="email"] {
+  padding: 19px 20px;
+  width: 548px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  font-weight: 400;
+  color: rgba(13, 19, 33, 0.4);
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.input input[type="submit"] {
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 17px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 160px;
+  background-color: rgba(13, 19, 33, 0.03);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 750px;
+}
+
+.footer-title {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
