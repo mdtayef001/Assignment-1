@@ -216,7 +216,7 @@ a {
       rgba(95, 94, 94, 0.438),
       rgba(0, 0, 0, 0.7)
     ),
-    url("/assets/handshake.jpg");
+    url("../assets/handshake.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
